@@ -1,0 +1,31 @@
+User-agent: *
+
+# Bloquea Ã¡reas administrativas, de autenticaciÃ³n y cÃ³digo fuente de Laravel.
+Disallow: /admin/
+Disallow: /login/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /vendor/
+Disallow: /resources/
+Disallow: /app/
+Disallow: /routes/
+Disallow: /database/
+# Bloquear el directorio que Laravel usa internamente para sesiones, logs, etc.
+Disallow: /storage/framework/
+Disallow: /storage/logs/
+Disallow: /storage/app/
+Disallow: /storage/cache/
+
+# Permitir CSS, JS, imÃ¡genes, assets y recursos que Google necesita
+# Esto es crucial para renderizar la pÃ¡gina correctamente.
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+Allow: /storage/ 
+# Si usas el enlace simbÃ³lico, este 'Allow' asegura que los archivos pÃºblicos sean rastreables.
+
+# Permite rastrear todo lo demÃ¡s (todas tus rutas web de Laravel)
+Allow: /
+
+# Sitemap principal
+Sitemap: https://clinicaelite.mx/sitemap.xml

@@ -1,0 +1,67 @@
+ /* Contenedor principal del calendario */
+    #calendar {
+        background: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        min-height: 85vh;
+    }
+
+    /* Título del calendario */
+    .fc-toolbar-title {
+        font-size: 22px;
+        font-weight: 600;
+        color: #333;
+    }
+
+    /* Botones superiores */
+    .fc .fc-button {
+        background: #6c63ff;
+        border: none;
+        border-radius: 6px;
+        padding: 6px 12px;
+        font-size: 14px;
+        transition: 0.2s;
+    }
+
+    .fc .fc-button:hover {
+        background: #554fe8;
+    }
+
+    .fc .fc-button-primary {
+        background: #6c63ff;
+    }
+
+    .fc .fc-button-primary:not(:disabled).fc-button-active,
+    .fc .fc-button-primary:not(:disabled):active {
+        background: #483cde;
+    }
+
+    /* Cuadrícula de días */
+    .fc-daygrid-day-number {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* Eventos */
+    .fc-event {
+        font-size: 13px;
+        border-radius: 5px;
+        padding: 3px 5px;
+    }
+
+    /* Texto dentro del evento */
+    .fc-event-title,
+    .fc-event-time {
+        font-size: 12px !important;
+    }
+
+    /* Responsive móvil */
+    @media (max-width: 768px) {
+        #calendar {
+            padding: 5px;
+        }
+        .fc-toolbar-title {
+            font-size: 18px;
+        }
+    }
