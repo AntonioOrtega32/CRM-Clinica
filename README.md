@@ -113,3 +113,13 @@ Modernizar y centralizar la operación digital de una clínica, sustituyendo pro
 ![App Screenshot](./images/Imagen2.png)
 
 ![App Screenshot](./images/Imagen3.png)
+
+![App Screenshot](./images/Imagen4.png)
+
+![App Screenshot](./images/Imagen5.png)
+
+![App Screenshot](./images/LA1.png)
+
+![App Screenshot](./images/LA3.png)
+
+![App Screenshot](./images/LA4.png)
